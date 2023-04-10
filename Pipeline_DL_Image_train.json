@@ -4,9 +4,9 @@
         "max_concurrent_runs": 1,
         "tasks": [
             {
-                "existing_cluster_id": "0909-190547-toads94",
+                "existing_cluster_id": "0410-184539-fwzqb3sq",
                 "notebook_task": {
-                    "notebook_path": "/Repos/oliver.koernig@databricks.com/databricks_dl_demo/Deep Learning Image Prep - Training",
+                    "notebook_path": "/Repos/tomo@o9o9.jp/databricks_dl_demo/Deep Learning Image Prep - Training",
                     "base_parameters": {
                         "image_path": "/tmp/256_ObjectCategories/"
                     }
@@ -15,12 +15,12 @@
                 "task_key": "Load_Images_for_Training"
             },
             {
-                "existing_cluster_id": "0909-191242-point445",
+                "existing_cluster_id": "0410-184556-926rherh",
                 "notebook_task": {
-                    "notebook_path": "/Repos/oliver.koernig@databricks.com/databricks_dl_demo/Deep Learning Image Demo - Train",
+                    "notebook_path": "/Repos/tomo@o9o9.jp/databricks_dl_demo/Deep Learning Image Demo - Train",
                     "base_parameters": {
                         "experiment_name": "DL_Image_Classifaction",
-                        "job_user": "oliver.koernig@databricks.com"
+                        "job_user": "tomo@o9o9.jp"
                     }
                 },
                 "email_notifications": {},
@@ -32,9 +32,9 @@
                 ]
             },
             {
-                "existing_cluster_id": "0909-190547-toads94",
+                "existing_cluster_id": "0410-184539-fwzqb3sq",
                 "notebook_task": {
-                    "notebook_path": "/Repos/oliver.koernig@databricks.com/databricks_dl_demo/Deep Learning Image Demo - Registry",
+                    "notebook_path": "/Repos/tomo@o9o9.jp/databricks_dl_demo/Deep Learning Image Demo - Registry",
                     "base_parameters": {
                         "experiment_name": "DL_Image_Classification"
                     }

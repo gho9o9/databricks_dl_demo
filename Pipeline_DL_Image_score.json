@@ -4,9 +4,9 @@
         "max_concurrent_runs": 1,
         "tasks": [
             {
-                "existing_cluster_id": "0909-190547-toads94",
+                "existing_cluster_id": "0410-184539-fwzqb3sq",
                 "notebook_task": {
-                    "notebook_path": "/Repos/oliver.koernig@databricks.com/databricks_dl_demo/Deep Learning Image Prep Scoring",
+                    "notebook_path": "/Repos/tomo@o9o9.jp/databricks_dl_demo/Deep Learning Image Prep Scoring",
                     "base_parameters": {
                         "image_path": "/tmp/unlabeled_images/256_ObjectCategories/"
                     }
@@ -15,9 +15,9 @@
                 "task_key": "Load_New_Images"
             },
             {
-                "existing_cluster_id": "0909-190547-toads94",
+                "existing_cluster_id": "0410-184539-fwzqb3sq",
                 "notebook_task": {
-                    "notebook_path": "/Repos/oliver.koernig@databricks.com/databricks_dl_demo/Deep Learning Image Label Azure",
+                    "notebook_path": "/Repos/tomo@o9o9.jp/databricks_dl_demo/Deep Learning Image Label Azure",
                     "base_parameters": {
                         "image_path": "/tmp/256_ObjectCategories/"
                     }
@@ -31,9 +31,9 @@
                 ]
             },
             {
-                "existing_cluster_id": "0909-190547-toads94",
+                "existing_cluster_id": "0410-184539-fwzqb3sq",
                 "notebook_task": {
-                    "notebook_path": "/Repos/oliver.koernig@databricks.com/databricks_dl_demo/Deep Learning Image Batch Scoring"
+                    "notebook_path": "/Repos/tomo@o9o9.jp/databricks_dl_demo/Deep Learning Image Batch Scoring"
                 },
                 "email_notifications": {},
                 "task_key": "Score_Images",
